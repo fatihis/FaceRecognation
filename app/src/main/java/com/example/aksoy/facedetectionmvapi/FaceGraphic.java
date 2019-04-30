@@ -33,7 +33,7 @@ public class FaceGraphic extends GraphicOverlay.Graphic{
 
     private Paint mFacePositionPaint;
     private Paint mIdPaint;
-    private Paint mBoxPaint;
+    private Paint mBoxPaints;
 
     private volatile Face mFace;
     private int mFaceId;
