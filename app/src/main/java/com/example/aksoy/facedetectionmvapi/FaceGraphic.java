@@ -26,13 +26,14 @@ public class FaceGraphic extends GraphicOverlay.Graphic{
             Color.MAGENTA,
             Color.RED,
             Color.WHITE,
-            Color.YELLOW
+            Color.YELLOW,
+            Color.ASLANAGZI
     };
     private static int mCurrentColorIndex = 0;
 
     private Paint mFacePositionPaint;
     private Paint mIdPaint;
-    private Paint mBoxPaint;
+    private Paint mBoxPaints;
 
     private volatile Face mFace;
     private int mFaceId;
