@@ -26,7 +26,8 @@ public class FaceGraphic extends GraphicOverlay.Graphic{
             Color.MAGENTA,
             Color.RED,
             Color.WHITE,
-            Color.YELLOW
+            Color.YELLOW,
+            Color.ASLANAGZI
     };
     private static int mCurrentColorIndex = 0;
 
